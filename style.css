@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 
-/* ================= VARIABLES ================= */
+/*  VARIABLES  */
 
 :root {
     --bg: #070b14;
@@ -17,7 +17,7 @@
 }
 
 
-/* ================= RESET ================= */
+/* RESET  */
 
 * {
     box-sizing: border-box;
@@ -42,7 +42,7 @@ a {
 }
 
 
-/* ================= HEADER ================= */
+/*  HEADER  */
 
 .header {
     position: fixed;
@@ -304,7 +304,7 @@ pre {
 }
 
 
-/* ================= SKILLS ================= */
+/*  SKILLS */
 
 .skills-grid {
     display: grid;
@@ -349,7 +349,7 @@ pre {
 }
 
 
-/* ================= PROJECTS ================= */
+/*  PROJECTS  */
 
 .projects-grid {
     display: grid;
@@ -460,7 +460,7 @@ pre {
 }
 
 
-/* ================= EDUCATION ================= */
+/*  EDUCATION */
 
 .timeline {
     max-width: 900px;
@@ -503,7 +503,7 @@ pre {
 }
 
 
-/* ================= VALUES ================= */
+/* VALUES  */
 
 .values-grid {
     display: grid;
@@ -534,7 +534,7 @@ pre {
 }
 
 
-/* ================= CONTACT ================= */
+/*  CONTACT  */
 
 .contact {
     background: linear-gradient( 180deg, var(--bg), #081222);
@@ -619,7 +619,7 @@ pre {
 }
 
 
-/* ================= FOOTER ================= */
+/*  FOOTER */
 
 .footer {
     padding: 25px 7%;
@@ -636,7 +636,7 @@ pre {
 }
 
 
-/* ================= TABLET ================= */
+/* TABLET */
 
 @media (max-width: 900px) {
     .hero {
@@ -657,7 +657,7 @@ pre {
 }
 
 
-/* ================= MOBILE ================= */
+/*  MOBILE  */
 
 @media (max-width: 680px) {
     .header {

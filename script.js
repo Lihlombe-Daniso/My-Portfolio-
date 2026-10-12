@@ -1,4 +1,4 @@
-/* ================= MOBILE MENU ================= */
+/*  MOBILE MENU  */
 
 const menuToggle =
     document.querySelector(".menu-toggle");
@@ -29,14 +29,14 @@ navLinks.forEach(link => {
 
 
 
-/* ================= CURRENT YEAR ================= */
+/*  CURRENT YEAR  */
 
 document.getElementById("year").textContent =
     new Date().getFullYear();
 
 
 
-/* ================= CONTACT FORM ================= */
+/*  CONTACT FORM  */
 
 const form =
     document.getElementById("contactForm");
@@ -102,7 +102,7 @@ form.addEventListener("submit", function(event) {
 
 
 
-/* ================= CLEAR FORM ================= */
+/*  CLEAR FORM */
 
 form.addEventListener("reset", () => {
 
